@@ -37,8 +37,6 @@
             <url>http://13.236.201.152:8081/repository/student-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
-  <build>
-    <sourceDirectory>src</sourceDirectory>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
