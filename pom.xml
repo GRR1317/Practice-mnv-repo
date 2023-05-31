@@ -28,52 +28,15 @@
    <distributionManagement>
         <repository>
             <id>deployment</id>
-            <name>student-release</name>
-            <url>http://13.236.201.152:8081/repository/student-release/</url>
+            <name>Internal Releases</name>
+            <url>http://10.128.0.10:8081/repository/student-rel/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
-            <name>student-snapshot</name>
-            <url>http://13.236.201.152:8081/repository/student-snapshot/</url>
+            <name>Internal Snapshot Releases</name>
+            <url>http://10.128.0.10:8081/repository/student-snap/</url>
         </snapshotRepository>
     </distributionManagement>
-    <plugins>
-      <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.3</version>
-        <configuration>
-          <source>1.8</source>
-          <target>1.8</target>
-        </configuration>
-      </plugin>
-      <plugin>
-        <artifactId>maven-war-plugin</artifactId>
-        <version>3.3.2</version>
-        <configuration>
-          <warSourceDirectory>WebContent</warSourceDirectory>
-          <failOnMissingWebXml>false</failOnMissingWebXml>
-        </configuration>
-      </plugin>
-      <plugin>
-      <groupId>org.sonarsource.scanner.maven</groupId>
-      <artifactId>sonar-maven-plugin</artifactId>
-      <version>3.9.1.2184</version>
-    </plugin>
-    </plugins>
-  </build>
-   
-  <properties>
-     <sonar.java.binaries>src/</sonar.java.binaries>
-</properties>
-  <dependencies>
-  	<dependency>
-  		<groupId>javax.servlet</groupId>
-  		<artifactId>javax.servlet-api</artifactId>
-      <version>3.0.1</version>
-  	</dependency>
-  </dependencies>
-</project>
-
   <dependencies>
   	<dependency>
   		<groupId>javax.servlet</groupId>
