@@ -50,7 +50,7 @@
       </plugin>
       <plugin>
         <artifactId>maven-war-plugin</artifactId>
-        <version>2.6</version>
+        <version>3.3.2</version>
         <configuration>
           <warSourceDirectory>WebContent</warSourceDirectory>
           <failOnMissingWebXml>false</failOnMissingWebXml>
@@ -63,18 +63,7 @@
     </plugin>
     </plugins>
   </build>
-   <distributionManagement>
-        <repository>
-            <id>deployment</id>
-            <name>student snapshots Releases</name>
-            <url>http://3.144.232.95:8081/repository/studunt-rel/</url>
-        </repository>
-        <snapshotRepository>
-            <id>deployment</id>
-            <name>student Snapshot </name>
-            <url>http://3.144.232.95:8081/repository/student-snap/</url>
-        </snapshotRepository>
-    </distributionManagement>
+   
   <properties>
      <sonar.java.binaries>src/</sonar.java.binaries>
 </properties>
