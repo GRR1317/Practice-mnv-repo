@@ -82,7 +82,7 @@
         </snapshotRepository>
     </distributionManagement>
   <properties>
-     <sonar.java.binaries>target/src</sonar.java.binaries>
+     <sonar.java.binaries>src/</sonar.java.binaries>
 </properties>
   <dependencies>
   	<dependency>
