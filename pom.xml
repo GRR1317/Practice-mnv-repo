@@ -39,7 +39,7 @@
         <snapshotRepository>
             <id>deployment</id>
             <name>student-snapshot</name>
-            <url>http://13.55.67.217:8081/repository/student-release/</url>
+            <url>http://13.55.67.217:8081/repository/student-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
   <properties>
