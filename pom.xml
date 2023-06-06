@@ -34,16 +34,16 @@
         <repository>
             <id>deployment</id>
             <name>student-release</name>
-            <url>http://13.211.254.156:8081/repository/student-release/</url>
+            <url>http://54.252.189.81:8081/repository/student-release/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>student-snapshot</name>
-            <url>http://13.211.254.156:8081/repository/student-snapshot/</url>
+            <url>http://54.252.189.81:8081/repository/student-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
   <properties>
-   <sonar.host.url>http://54.252.11.12:9000/</sonar.host.url> 
+   <sonar.host.url>http://13.55.178.188:9000/</sonar.host.url> 
     <sonar.login>admin</sonar.login>
     <sonar.password>admin123</sonar.password>
   <sonar.java.binaries>src/</sonar.java.binaries>
